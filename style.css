@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: rgba(255, 174, 0, 0.336);
+
+}
+
+nav{
+    background-color: rgb(255, 174, 0);
+    height: 55px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+a{  
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:hover{
+    background-color: rgb(214, 147, 3);
+}
+
+.main{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+
+.quiz, .area, .hypotenuse, .is-triangle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quiz .title, .area .title, .hypotenuse .title, .is-triangle .title{
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 20px 0;
+}
+
+.question-container{
+    margin: 15px 0;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.question-container p{
+    margin-bottom: 5px;
+}
+
+.question-container label{
+    margin: 0 10px;
+}
+
+.message, .area-output, .hyp-output, .output{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 10px;
+}
+
+#retry-btn{
+    margin: 0 auto;
+}
+
+#retry-btn, #submit-btn, #area-btn, #hyp-btn, #check-btn {
+    border-radius: 28px;
+    color: #000000;
+    font-size: 23px;
+    font-weight: 500;
+    background-color: rgb(255, 174, 0);
+    padding: 10px 40px;
+    text-decoration: none;
+    border: 2px solid #000000;
+    margin-top: 20px;
+}
+
+#retry-btn:hover, #submit-btn:hover, #area-btn:hover, #hyp-btn:hover, #check-btn:hover {
+    background-color: rgb(230, 157, 2);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.base, .height, .angle-input{
+    font-size: 24px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    text-align: center;
+}
+
+.base input, .height input, .angle-input input{
+    margin-top: 10px;
+}
+
+input{
+    font-size: 24px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 174, 0);
+}
+
+
