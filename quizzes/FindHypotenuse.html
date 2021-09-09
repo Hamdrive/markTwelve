@@ -16,21 +16,21 @@
         <a href="./FindHypotenuse.html">Find Hypotenuse</a>
         <a href="./CheckIsTriangle.html">Is it Triangle?</a>
     </nav>
-    <div>
+    <div class="hypotenuse">
         <div class="title">
             <p>Find the Hypotenuse</p>
         </div>
         <div class="base">
-            <label for="base-input">Enter the base of triangle:</label>
+            <label for="base-input">Enter the base of triangle (cm):</label>
             <input type="number" min="1" class="base-input" />
         </div>
         <div class="height">
-            <label for="height-input">Enter the height of triangle:</label>
+            <label for="height-input">Enter the height of triangle (cm):</label>
             <input type="number" min="1" class="height-input" />
         </div>
+        <div class="hyp-output">&nbsp;</div>
+        <button id="hyp-btn">Find Hypotenuse!</button>
     </div>
-    <button id="hyp-btn">Find Hypotenuse!</button>
-    <div class="hyp-output"></div>
     <script src="./FindHypotenuse.js"></script>
 </body>
 </html>

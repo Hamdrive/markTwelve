@@ -13,7 +13,7 @@ function getValues(){
     const height = heightValue.value;
     if( base && height){
         const hyp = calculateHypotenuse(base, height);
-        showMessage(`The hypotenuse of the triangle is ${hyp.toFixed(2)}`);
+        showMessage(`The hypotenuse of the triangle is ${hyp.toFixed(2)} cm`);
     } else {
         showMessage("Error!! Enter values in both fields!");
     }

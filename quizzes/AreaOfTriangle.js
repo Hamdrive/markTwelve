@@ -14,7 +14,7 @@ function getValues(){
     
     if( base && height){
         const area = calculateArea(base, height);
-        showMessage(`The triangle's area is: ${area}`);
+        showMessage(`The triangle's area is: ${area} cm²`);
     } else {
         showMessage("Error!! Enter a value in both fields to calculate")
     }

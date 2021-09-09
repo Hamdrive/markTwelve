@@ -14,7 +14,7 @@ function compareAnswers(quizResults){
         index++;
     }
 
-    if(score > 3){
+    if(score > 2){
         showMessage(`Your score is: ${score}. You're a certified Trianglist!!`)
     } else {
         showMessage(`Your score is: ${score}. You need to check your concepts!`)
