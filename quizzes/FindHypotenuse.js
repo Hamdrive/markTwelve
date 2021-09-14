@@ -12,8 +12,12 @@ function getValues(){
     const base = baseValue.value;
     const height = heightValue.value;
     if( base && height){
-        const hyp = calculateHypotenuse(base, height);
-        showMessage(`The hypotenuse of the triangle is ${hyp.toFixed(2)} cm`);
+        if(base > 0 && height > 0){
+            const hyp = calculateHypotenuse(base, height);
+            showMessage(`The hypotenuse of the triangle is ${hyp.toFixed(2)} cm`);
+        } else {
+            showMessage("Such a triangle cannot exist! Please check your values!")
+        }
     } else {
         showMessage("Error!! Enter values in both fields!");
     }

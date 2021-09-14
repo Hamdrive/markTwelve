@@ -13,8 +13,12 @@ function getValues(){
     const height = heightValue.value;
     
     if( base && height){
-        const area = calculateArea(base, height);
-        showMessage(`The triangle's area is: ${area} cm²`);
+        if(base > 0 && height > 0){
+            const area = calculateArea(base, height);
+            showMessage(`The triangle's area is: ${area.toFixed(2)} cm²`);
+        } else {
+            showMessage("Such a triangle cannot exist! Please check your values!")
+        }
     } else {
         showMessage("Error!! Enter a value in both fields to calculate")
     }
