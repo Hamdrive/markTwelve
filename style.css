@@ -9,7 +9,9 @@
 body{
     font-family: 'Montserrat Alternates', sans-serif;
     background-color: rgba(255, 174, 0, 0.336);
-
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 
 nav{
@@ -18,9 +20,10 @@ nav{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin-bottom: auto;
 }
 
-a{  
+nav a{  
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -32,7 +35,7 @@ a{
     padding: 10px;
 }
 
-a:hover{
+nav a:hover{
     background-color: rgb(214, 147, 3);
 }
 
@@ -49,6 +52,7 @@ a:hover{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin: 1.5rem 0;
 }
 
 .quiz .title, .area .title, .hypotenuse .title, .is-triangle .title{
@@ -77,7 +81,7 @@ a:hover{
     align-items: center;
     font-size: 22px;
     font-weight: 600;
-    margin: 10px;
+    margin-top: 3rem;
 }
 
 #retry-btn{
@@ -123,4 +127,37 @@ input{
     border: 2px solid rgb(255, 174, 0);
 }
 
+.icons{
+    display: flex;
+    justify-content: center;
+}
 
+.icons i{
+    margin: 0 2rem;
+    color: black;
+}
+
+.icons i:hover{
+    color: white;
+}
+
+.bottom-container{
+    background-color: rgb(255, 174, 0);
+    height: 100px;
+    width: 100%;
+    margin-top: auto;
+    padding: 1.5rem 0;
+}
+
+.footer-link{
+    font-size: 1rem;
+    display: inline-block;
+}
+
+.copyright{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 0.5rem;
+}
