@@ -6,6 +6,8 @@ How good are you with triangles? Or do you need to solve some basic calculations
 3. Calculate Hypotenuse
 4. Check if any 3 angles can create a triangle
 
+Live Demo : https://trianglefy.netlify.app
+
 ## Getting it running
 
 Fork the repository, spin up a live server and get calculating!
